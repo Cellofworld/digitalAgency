@@ -1,0 +1,435 @@
+
+
+.smm {
+    color: #242A56;
+}
+
+.smmDiscription {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #FFFFFF;
+    background-image: url(../../img/smm/smmBack.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 390px;
+    padding-left: 140px;
+}
+
+.smmTitle {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    width: 600px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+.offerDiscription {
+    background-color: #EDF4FA;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 160px 60px 160px;
+}
+
+.smmDiscriptionTitle {
+    width: 550px;
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 40px;
+}   
+
+.offerDisTitle {
+    width: 610px;
+}
+
+.offerDiscriptionImg {
+    width: 500px;
+    height: 350px;
+    margin-right: 10px;
+}
+
+.smmDiscriptionSubtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.smmDiscriptionImg {
+    width: 65px;
+    height: 65px;
+    margin-right: 10px;
+}
+
+.smmHighlight {
+    display: flex;
+    align-items: center;
+    margin: 30px 0px 0px 0px;
+    padding: 25px;
+    background: #FBF7F1;
+    border: 1px solid #C1D3DE;
+    border-radius: 12px;
+}
+
+
+
+
+
+
+
+
+.contentTable {
+    padding: 80px 140px 80px 140px;
+}
+
+.titleTable {
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+}
+
+.tableTitle {
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.tableSubtitle {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    width: 670px;
+    margin: 0px auto 60px auto;
+}
+
+table {
+    border: 1px solid #C1D3DE;
+    border-radius: 12px;
+    border-collapse: collapse;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+th, td {
+    border: 1px solid #C1D3DE;
+    padding: 10px 10px
+}
+
+table thead tr th {
+    width: 220px;
+}
+
+tbody tr:nth-child(2n + 1) {
+    background-color: #EDF4FA;
+}
+
+tbody tr td:last-child {
+    width: 450px;
+}
+
+.tableSubtitleCom {
+    text-align: center;
+    width: 1065px;
+    margin: 0px auto 80px auto;
+}
+
+.contentTableCom {
+    padding: 80px 140px 80px 140px;
+    background-color: #EDF4FA;
+}
+
+.titleTableCom {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.com tbody tr td:last-child {
+    width: 231px;
+}
+
+.com tbody tr:nth-child(2n) {
+    background-color: #FFFFFF;
+}
+
+.com thead tr {
+    background-color: #FFFFFF;
+}
+
+.com thead tr th {
+    width: 220px;
+}
+
+
+
+
+
+
+
+.targetAds {
+    padding: 80px 140px 80px 140px ;
+}
+
+.targetAdsTitle {
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.targetAdsContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.targetadsDiscrition {
+    width: 445px;
+}
+
+.targetAdsImg {
+    width: 700px;
+    height: 400px;
+}
+
+.targetAdsDiscriptionTitle {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.targetAdsSubtitle {
+    margin-bottom: 15px;
+}
+
+
+
+
+.useTargetSmm {
+    padding: 80px 140px 80px 140px;
+    background-color: #393A56;
+    color: #FFFFFF;
+}
+
+.useTargetSmmTitle {
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.useTargetSmmCards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.useTargetSmmCard {
+    width: 270px;
+    border-top: 1px solid  #8B9BAB;
+    padding-top: 30px;
+}
+
+.useTargetSmmCardTitle {
+    margin-top: 28px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+
+
+
+.settingsTarget {
+    padding: 80px 140px 80px 140px;
+}
+
+.settingsTargetTitile {
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.settingsTargetSubtitle {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 24px 0px 60px 0px;
+}
+
+.settingsTargetParam {
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.settingsTargetParamTitle {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.settingsTargetParamCards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    height: 180px;
+    margin: 24px 0px 60px 0px;
+}
+
+.settingsTargetParamCard {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+    width: 250px;
+}
+
+.settingsTargetParamCardImg {
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+}
+
+.settingsTargetParamCardsTheory {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 24px 0px 30px 0px
+}
+
+.settingsTargetParamCardTheory  {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+    width: 360px;
+}
+
+.settingsTargetBonus {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.settingsTargetExample {
+    padding: 40px;
+    background-color: #EDF4FA;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+.settingsTargetExampleTitle {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.settingsTargetExampleSubtitle {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+.goalAds {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 140px 80px 140px;
+    background-color: #EDF4FA;
+}
+
+.goalAdsTitle {
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.goalAdsSubtitle {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    margin: 0px auto 40px auto;
+    width: 770px;
+}
+
+.goalAdsTable {
+    width: 100%;
+}
+
+.goalAdsCards {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.goalAdsTd {
+    vertical-align: top;
+    padding: 0px;
+    
+}
+.goalAdsTr {
+    display: flex;
+    padding: 10px;
+}
+.goalAdsIcon {
+    margin-right: 10px;
+}
+.goaladsTd, .goalAdsTr:nth-child(2n) {
+    background-color: #FFFFFF;
+}
+.goalAdsThead {
+    background-color: #FFFFFF;
+}
+
+
+
+
+.smmTabTitle {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.contentTab {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.subtitleTab {
+    font-weight: 700;
+    font-size: 15px;
+    margin: 10px 0px 5px 0px;
+    color: black;
+}
+
+
+
+
+.costSmm {
+    display:flex;
+    flex-direction: column;
+    padding: 80px 140px 80px 140px;
+    background-color: #EDF4FA;
+}
+
+.titleCostTable {
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.costTable {
+    background-color: #FFFFFF;
+}

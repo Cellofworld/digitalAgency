@@ -1,0 +1,158 @@
+
+.seo {
+    color: #393A56;
+}
+
+.seoHeader {
+    background-image: url("../../img/seoImg/seoBack.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+
+.seoTitle {
+    font-weight: 900;
+    font-size: 68px;
+    padding-left: 140px;
+}
+.seoSubtitle {
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 140px;
+    margin-top: 20px;
+}
+
+.seoFound {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+    padding: 80px 160px 40px 160px;
+    background-color: #EDF4FA;;
+}
+
+
+
+
+
+
+.seoTabs {
+    padding: 80px 140px 80px 140px;
+}
+
+.seoTabTitle {
+    text-align: center;
+    font-weight: 900;
+    font-size: 35px;
+}
+.seoLi {
+    margin: 10px;
+}
+.seoUl {
+    padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+.seoTable {
+   
+    padding: 80px 140px 80px 140px;
+}
+.seoCostTable {
+ width: 100%;
+}
+.seoCostTableTr {
+   display: flex;
+   padding: 10px;
+}
+.seoCostTh {
+    width: auto;
+}
+.seoTableTitile {
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+.useTargetSeoCards {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.useTargetSeoCard {
+    width: 350px;
+    border-top: 1px solid  #8B9BAB;
+    padding-top: 30px;
+}
+.useTargetSeoCardSubtitle {
+    margin-top: 28px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.useTargetSeoCardTitle {
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+
+
+.QuestionsSeo {
+    padding: 80px 140px 40px 140px;
+    background-color: #EDF4FA;
+}
+
+.QuestionsSeoDiscription {
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.QuestionsSeoImg {
+    width: 700px;
+    height: 700px;
+}
+.QuestionsSeoContent {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+.QuestionsSeoSections {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin-top: 24px;
+}
+.QuestionsSeoSection {
+    margin-bottom: 24px;
+}
+
+.QuestionsSeoSectionTitle {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.QuestionsSeoSectionSubtitle {
+    font-weight: 400;
+    font-size: 18px;
+}

@@ -1,0 +1,154 @@
+.active {
+    display: block;
+    margin: 10px 5px 10px 34px;
+}
+.inactive {
+    display: none;
+}
+
+.aboutHeader {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url("../../img/about.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 390px;
+}
+
+.about {
+    width: 410px;
+}
+
+.aboutUsInfo {
+    padding: 80px 0px 80px 0px
+}
+
+.discriptionAbout {
+    padding: 0px 160px 0px 160px;
+}
+
+.secondHeadAbout {
+    padding: 0px 160px 0px 160px;
+    background-color: #EDF4FA;
+}
+
+.aboutUsTitle {
+font-weight: 700;
+font-size: 19px;
+line-height: 130%;
+color: #242A56;
+}
+
+.aboutChoice {
+    width: 500px;
+}
+
+.aboutUsSubtitle {
+    margin-top: 40px;
+    font-weight: 400;
+font-size: 15px;
+color: #393A56;
+}
+
+.borderAboutUs {
+    margin: 40px 0px 40px 0px;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #C1D3DE;
+    background-color: #FBF7F1;
+}
+
+.aboutTabs {
+    padding: 80px 160px 80px 160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #242A56;
+}
+
+.tabsImg {
+    width: 480px;
+    height: 480px;
+}
+
+.aboutTabTitle {
+    font-weight: 900;
+font-size: 35px;
+}
+
+.tabsContent {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 30px;
+}
+
+.buttonTab {
+    padding: 10px 5px 10px 0px;
+}
+
+.btnImg {
+    display: flex;
+}
+
+.tablinks {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.imgTab {
+    margin-right: 10px;
+}
+
+.numberforUs {
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    background-color: #393A56;
+    color: #FFFFFF;
+    padding: 80px 160px 80px 160px;
+}
+
+.numberforUsTitle {
+    width: 600px;   
+    text-align: center;
+}
+.numberforUsSubtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+}
+
+.numberforUsTitleDiscriptin {
+    font-weight: 900;
+font-size: 30px;
+}
+.numberforUsSubtitleDiscriptin {
+    margin-top: 10px;
+    font-weight: 400;
+font-size: 17px;
+}
+
+.numberforUsSubtitleDiscription {
+    font-weight: 700;
+font-size: 60px;
+}
+
+
+
+
+
+
+.smmTabs {
+    padding: 80px 140px 80px 140px;
+}

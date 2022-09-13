@@ -1,0 +1,425 @@
+
+.googleAdws {
+    color: #242A56;
+}
+
+.googleHeader {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start ;
+    flex-direction: column;
+    background-image: url("../../img/googleImg/googleBack.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 390px;
+    color: #FFFFFF;
+    padding-left: 140px;
+}
+
+.googleResults {
+    background-color: #EDF4FA;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 160px 60px 160px;
+}
+
+.principlesImgGoogle {
+    width: 440px;
+    height: 440px;
+    margin-right: 10px;
+}
+
+.googleTitle {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    width: 400px;
+    margin-bottom: 15px;
+}
+
+.discriptionMonitorsTitle {
+    font-weight: 700;
+    font-size: 17px;
+    color: #242A56;
+    padding: 1px;
+    margin: 30px 10px 0px 10px;
+}
+
+.principlesHighlightsGoogle {
+    display: flex;
+    align-items:center ;
+    margin: 30px 30px 0px 30px;
+    padding: 10px;
+    background: #FBF7F1;
+    border: 1px solid #C1D3DE;
+    border-radius: 12px;
+}
+
+.googleIcon {
+    width: 60px;
+    height: 60px;
+}
+
+
+
+
+
+
+
+
+.watchAds {
+    padding: 80px 140px 80px 140px;
+}
+
+.watchAdsCards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.watchAdsCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px 10px 0px 10px;
+    width: 250px;
+    height: 155px;
+}
+
+.cardImg {
+    border: 1px solid #C1D3DE;
+    border-radius: 12px;
+    width: 45px;
+    height: 45px;
+    padding: 15px;
+}
+
+.watchAdsTitile {
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.watchAdsCardDiscription {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+.costAds {
+    background-color: #EDF4FA;
+    padding: 80px 140px 80px 140px;
+}
+
+.costTitle {
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.costUl {
+    display: flex;
+    justify-content: space-between;
+}
+
+.costVoidTitle {
+    height: 98px;
+}
+
+.costDiscriptionUl {
+    height: 100px;
+}
+
+.costLi {
+    display: flex;
+    align-items: center;
+    padding: 8px 50px 8px 10px;
+}
+
+.costIcon {
+    height: 20px;
+    width: 20px;
+}
+
+.costLi:nth-child(2n) {
+    background-color: #FFFFFF;
+}
+
+ul {
+    padding-inline-start: 0px;
+    padding: 30px;
+}
+
+.costSmallBus {
+    background-color: #FFFFFF;
+    border: 1px solid #C1D3DE;
+    border-radius: 8px;
+}
+
+.costSmallBus 
+.costLi:nth-child(2n) {
+    background-color: #EDF4FA;;
+}
+
+.costMiddleBus {
+    background-color: #FFFFFF;
+    border: 1px solid #C1D3DE;
+    border-radius: 8px;
+}
+
+.costMiddleBus 
+.costLi:nth-child(2n) {
+    background-color: #EDF4FA;;
+}
+
+.costTitileUl {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.costPriceUl {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.costDiscriptionUl {
+    display: flex;
+}
+
+.costBagIcon {
+    background-color: #C1D3DE;
+    margin-top: -40px;
+    border-radius: 2px 2px 12px 12px;
+    width: 20px;
+    height: 20px;
+    padding: 20px 15px 20px 15px;
+}
+
+.costTwobagIcon {
+    background-color: #C1D3DE;
+    margin-top: -40px;
+    border-radius: 2px 2px 12px 12px;
+    width: 30px;
+    height: 30px;
+    padding: 15px 10px 15px 10px;
+}
+
+.costTitleBus
+.costLi {
+    font-weight: 700;
+font-size: 15px;
+padding: 9px 50px 9px 10px;
+}
+
+.infoAds {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px 20px 20px;
+    margin-top: 60px;
+    background-color: #EDF4FA;
+    border: 1px solid #C1D3DE;
+    border-radius: 12px;
+}
+
+.infoIcon {
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+.adsGog {
+    padding: 80px 140px 0px 140px;
+}
+
+.adsImg {
+    width: 630px;
+    height: 420px;
+}
+
+.adsCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px 0px 80px 0px;
+}
+
+.adsCard:nth-child(2n + 1) {
+    flex-direction: row-reverse;
+}
+
+.adsGogTitle {
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.adsGogCardTitle {
+    font-weight: 700;
+font-size: 26px;
+margin-bottom: 12px;
+}
+
+.adsGogCardDiscription {
+    font-weight: 400;
+font-size: 17px;
+margin: 12px 0px 12px 0px;
+}
+
+.adsGogDiscription {
+    width: 500px;
+}
+
+
+
+
+
+
+
+.offerAds {
+    padding: 80px 140px 0px 140px;
+    background-color: #393A56;
+    color: #FFFFFF;
+}
+
+
+.offerAdsCards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.offerAdsTitle {
+    font-weight: 900;
+font-size: 35px;
+text-align: center;
+margin-bottom: 50px;
+}
+
+.offerAdsCard {
+    width: 250px;
+    height: 420px;
+    border-top: 1px solid  #8B9BAB;
+    padding-top: 30px;
+}
+
+.offerAdsCardTitle {
+    font-weight: 700;
+font-size: 20px;
+margin: 40px 0px 25px 0px
+}
+
+.offerAdsCardSubtitle {
+        font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+.stages {
+    padding: 80px 140px 0px 140px;
+    color: #242A56;
+}
+
+.stagesTitle {
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.stagesCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stagesCard {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 300px;
+    border-top: 1px solid #C1D3DE;
+    padding-top: 30px;
+}
+
+.stagesCardImg {
+    width:60px;
+    height: 60px;
+}
+
+.stagesCardTitle {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 40px 0px 25px 0px
+}
+
+.stagesSubtitle {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+.resultAds {
+    padding: 80px 140px 60px 140px;
+    background-color:#EDF4FA;
+}
+
+.resultAdsImg {
+    margin-right: 20px;
+}
+
+.resultAdsTitle {
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.resultAdsCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.resultAdsCard {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 530px;
+    margin: 30px 0px 30px 0px;
+}
+
+.resultAdsCardTitle {
+    font-weight: 700;
+    line-height: 22px;
+    font-size: 15px;
+}

@@ -1,0 +1,27 @@
+
+
+.contactHeader {
+    background-image: url("../../img/clientPage/clientBack.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 390px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contactTitle {
+    font-weight: 900;
+    font-size: 68px;
+    color: #FFFFFF;
+    padding-left: 140px;
+}
+.contactSubtitle {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding-left: 140px;
+    margin-top: 20px;
+}

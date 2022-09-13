@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700;900&display=swap');
+
+body {
+    font-family: 'Inter';
+    font-style: normal;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navigationMain {
+  padding-bottom: 80px;
+}
+
+
+.secondHead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    background-image: url("../../img/mainBackground.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 60px 160px 30px 160px;
+  }
+  
+  p {
+    margin: 0px;
+  }
+  
+  .discriptionHead {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 45px auto 0px auto;
+    width: 480px;
+    height: 350px;
+    }
+  
+  .headSubtitle {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+  
+  }
+  
+    .headTitle {
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 55px;
+    color: #FFFFFF;
+    margin: 28px 0px 28px 0px;
+    }
+  
+  .titleDiscription {
+    font-weight: 400;
+    font-size:15px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+  
+  .followUs {
+    display: flex;
+    flex-direction: column;
+    margin: 45px auto 0px auto;
+    padding: 20px;
+    height: 500px;
+    width: 450px;
+    background-color: #376FFF;
+    border-radius: 12px;
+  }
+  
+  .followTitle {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 20px 0px 20px 20px;
+    color: #FFFFFF;
+    }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    width: 400px;
+    height: 30px;
+    border: 2px solid #C1D3DE;
+    border-radius: 8px;
+    box-shadow:none;
+    outline: #FFFFFF;
+    background-color: #376FFF;
+    margin: 15px;
+    color: #FFFFFF;
+    padding: 5px 5px 5px 20px;
+    border-color: rgb(255, 255, 255);
+  }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+  
+input::placeholder {
+   color: #FFFFFF;
+  }
+textarea::placeholder {
+    color: #FFFFFF;
+  }
+
+.checkSend{
+    width: 15px;
+    height: 15px;
+    margin: 0px 12px 0px 0px;
+    padding: 0px;
+    background-color: #376FFF;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+.followMessage {
+    height: 100px;
+    width: 400px;
+    border: 2px solid #C1D3DE;
+    border-radius: 8px;
+    box-shadow:none;
+    outline: #FFFFFF;
+    background-color: #376FFF;
+    margin: 15px;
+    color: #FFFFFF;
+    padding: 5px 5px 5px 20px;
+    border-color: rgb(255, 255, 255)
+  }
+
+.send {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discriptinCheckBox {
+    width: 230px;
+    color: #FFFFFF;
+    font-weight: 200;
+    font-size: 14px;
+  }
+a {
+    color: #FFFFFF;
+}
+.submitButton {
+    width: 150px;
+    height: 50px;
+    margin-right: 20px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    color: #376FFF;
+    border-color: #C1D3DE;
+    cursor: pointer;
+  }
+  button:disabled {
+    background-color: #C1D3DE;
+    cursor:unset;
+  }
+
+  .principlesMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0px 0px 0px ;
+    padding: 0px 160px 0px 160px;
+  }
+
+  .principlesImg {
+    width: 500px;
+    height: 440px;
+  }
+
+  .principlesDiscription {
+    height: 440px;
+  }
+  .principleDiscriptionTitle {
+    font-weight: 900;
+    font-size: 31px;
+    margin-left: 10px;
+  }
+  .principleDiscriptionSubtitle {
+    padding: 1px;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 30px 10px 0px 10px ;
+  }
+  .principleDiscriptionHighlight {
+    margin: 30px 30px 0px 30px;
+    padding: 20px;
+    background: #FBF7F1;
+    border: 1px solid #C1D3DE;
+    border-radius: 12px;
+  }
+
+
+
+  .sevicesMain {
+    background-color: #393A56;
+    margin-top: 80px;
+    padding: 60px 160px 80px 160px;
+  }
+
+  .servicesTitle {
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .servicesGFI {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 40px;
+  }
+
+  .iconServ {
+    margin-top: 40px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .servTitle {
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-top: 30px;
+  }
+
+  .servDiscription {
+    font-weight: 400;
+    width: 500px;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin: 24px 0px 40px 0px;
+  }
+
+  .moreServ {
+    width: 150px;
+    height: 38px;
+    margin-right: 20px;
+    background-color: #376FFF;
+    border-radius: 8px;
+    color: #FFFFFF;
+  }
+
+  .servicesGoogle {
+    border-top: grey solid 1px;
+    width: 470px;
+  }
+  .servicesFacebook {
+    border-top: grey solid 1px;
+    width: 470px;
+  }
+
+
+
+
+  .slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+    background-color: #EDF4FA;
+  }
+
+  .sliderTitle {
+    font-weight: 900;
+    font-size: 35px;
+  }
+
+  .sliderSubtitle {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0px 40px 0px;
+  }
+
+  .slideImg {
+    width: 320px;
+    height: 320px;
+    margin: 0px 10px 0px 10px;
+  }
+
+.navigationSlider {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px 40px 0px;
+}
+
+  .next {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url("../../img/next.svg");
+    background-size: contain;
+    margin-right: auto;
+  }
+
+  .prev {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url("../../img/next.svg");
+    transform: rotate(180deg);
+    background-size: contain;
+    margin-left: 700px;
+  }
+
+
+
+
+
+  .clients {
+    margin-top: 80px;
+    padding: 0px 160px 0px 160px;
+  }
+
+  .clientsBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 35px;
+  }
+
+  .clientsTitle {
+    font-weight: 900;
+    font-size: 38px;
+    color: #242A56;
+    text-align: center;
+  }
+
+  .clientsImg {
+    width: 225px;
+    height: 110px;
+    margin: 5px;
+  }
+
+
+
+
+
+
+
+
+
+  .calling {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #376FFF;
+    height: 110px;
+    margin-top: 80px;
+    color:#FFFFFF;
+    padding: 60px;
+    border-radius: 8px;
+  }
+
+  .infoContacts {
+    width: 550px;
+  }
+
+  .callingDiscription {
+   text-align: left;
+   width: 400px;
+  }
+
+  .callingTitle {
+    font-weight: 900;
+    font-size: 24px;
+  }
+
+  .callingSubtitle {
+    margin-top: 20px;
+  }
+
+  .callingNumber {
+    width: 400px;
+    text-align: right;
+    font-weight: 700;
+    font-size: 45px;
+    text-decoration-line: underline;
+  }
+
+  .contacts {
+    padding: 0px 160px 0px 160px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+
+  }
+
+  .numberOne {
+    width: 190px;
+    text-decoration-line: underline;
+  }
+
+  .numberTwo {
+    width: 190px;
+    text-decoration-line: underline;
+  }
+
+  .blackLogo {
+    width: 150px;
+    height: 60px;
+  }
+
+  .moreContacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 400px;
+    margin-top: 20px;
+  }
+
+  .numbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 400px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #376FFF;
+    height: 50px;
+  }
+  .numberTitle {
+    width: 400px;
+    height: 20px;
+  }
+
+  .emailContacts {
+width: 190px;
+  }
+  .email {
+    font-weight: 600;
+font-size: 16px;
+text-decoration-line: underline;
+color: #376FFF;
+  }
+  .adress {
+    color: #393A56;
+  }
+
+  .adressContacts {
+width: 190px;
+  }
+
+  .contactsDiscriptionTitle {
+font-weight: 600;
+font-size: 16px;
+line-height: 28px;
+color: #8B9BAB;
+text-decoration: none;
+margin-bottom: 15px;
+  }
