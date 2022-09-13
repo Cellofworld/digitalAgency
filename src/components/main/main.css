@@ -63,7 +63,7 @@ body {
   .followUs {
     display: flex;
     flex-direction: column;
-    margin: 45px auto 0px auto;
+    margin: 45px 0px 0px auto;
     padding: 20px;
     height: 500px;
     width: 450px;
